@@ -8,8 +8,10 @@ const CategoryCard = ({ category }) => {
       <div className="category-logo-container">
         <img className="category-logo" src={logo} alt="" />
       </div>
-      <h3>{title}</h3>
-      <p>{jobsAvailable} Jobs Available</p>
+      <h3 className="text-xl font-extrabold mb-2">{title}</h3>
+      <p className="font-medium text-[#A3A3A3]">
+        {jobsAvailable} Jobs Available
+      </p>
     </div>
   );
 };
