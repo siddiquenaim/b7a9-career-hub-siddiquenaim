@@ -1,9 +1,11 @@
 import React from "react";
+import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="w-[90%] mx-auto my-12">
-      <div className="navbar">
+    <div className="bg-[#F9F9FF]">
+      <nav className="navbar flex flex-col md:flex-row md:w-[90%] mx-auto py-8">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -24,16 +26,16 @@ const Header = () => {
             </label>
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <Link to="/statistics">Statistics</Link>
               </li>
               <li>
-                <a>Item 2</a>
+                <Link to="/applied-jobs">Applied Jobs</Link>
               </li>
               <li>
-                <a>Item 3</a>
+                <Link to="/blog">Blog</Link>
               </li>
             </ul>
           </div>
@@ -42,23 +44,22 @@ const Header = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 font-medium text-[#757575] gap-10">
+          <ul className="menu menu-horizontal px-1 description">
             <li>
-              <a>Statistics</a>
-            </li>
-
-            <li>
-              <a>Applied Jobs</a>
+              <Link to="/statistics">Statistics</Link>
             </li>
             <li>
-              <a>Blog</a>
+              <Link to="/applied-jobs">Applied Jobs</Link>
+            </li>
+            <li>
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className=" btn-primary normal-case">Star Applying</a>
+        <div className="md:navbar-end items-center">
+          <a className="btn-primary normal-case">Start Applying</a>
         </div>
-      </div>
+      </nav>
     </div>
   );
 };

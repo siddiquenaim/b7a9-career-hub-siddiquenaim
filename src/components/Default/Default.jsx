@@ -1,10 +1,13 @@
 import React from "react";
+import Banner from "../Banner/Banner";
+import Categories from "../Categories/Categories";
 
 const Default = () => {
   return (
-    <div>
-      <h3>Default home</h3>
-    </div>
+    <>
+      <Banner></Banner>
+      <Categories></Categories>
+    </>
   );
 };
 

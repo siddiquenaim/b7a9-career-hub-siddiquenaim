@@ -1,0 +1,26 @@
+[
+  {
+    "logo": "https://www.reshot.com/preview-assets/icons/29H7EANXK4/software-engineer-29H7EANXK4.svg",
+    "id": "job001",
+    "title": "Software Engineer",
+    "jobsAvailable": 3447
+  },
+  {
+    "logo": "https://www.reshot.com/preview-assets/icons/T7NPXWR8VL/mobile-marketing-T7NPXWR8VL.svg",
+    "id": "job002",
+    "title": "Marketing Manager",
+    "jobsAvailable": 5035
+  },
+  {
+    "logo": "https://www.reshot.com/preview-assets/icons/M7GUVWQCT4/link-sales-M7GUVWQCT4.svg",
+    "id": "job003",
+    "title": "Sales Representative",
+    "jobsAvailable": 7883
+  },
+  {
+    "logo": "https://www.reshot.com/preview-assets/icons/T8LEVFHJ9G/analystic-T8LEVFHJ9G.svg",
+    "id": "job004",
+    "title": "Data Analyst",
+    "jobsAvailable": 1149
+  }
+]
