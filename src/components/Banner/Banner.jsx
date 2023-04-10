@@ -16,7 +16,9 @@ const Banner = () => {
             need. Its your future. Come find it. Manage all your job application
             from start to finish.
           </p>
-          <button className="btn-primary">Get Started</button>
+          <a href="#features">
+            <button className="btn-primary">Get Started</button>
+          </a>
         </div>
       </div>
       <div className="md:w-[50%] flex justify-center">

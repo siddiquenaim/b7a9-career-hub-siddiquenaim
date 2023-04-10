@@ -60,7 +60,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="md:navbar-end items-center">
-          <a className="btn-primary normal-case">Start Applying</a>
+          <a href="#features" className="btn-primary normal-case">
+            Start Applying
+          </a>
         </div>
       </nav>
     </div>

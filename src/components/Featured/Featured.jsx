@@ -9,7 +9,7 @@ const Featured = ({ featuredJobs }) => {
   };
 
   return (
-    <div className="mt-32 w-[90%] mx-auto">
+    <div id="features" className="mt-32 w-[90%] mx-auto">
       <div className="text-center">
         <h2 className="section-title">Featured Jobs</h2>
         <p className="description mb-8">

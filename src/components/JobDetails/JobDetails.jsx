@@ -9,6 +9,7 @@ import {
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import { addToDb } from "../../utilities/fakedb";
 
 const JobDetails = () => {
   const allJobs = useLoaderData();
@@ -16,16 +17,17 @@ const JobDetails = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    console.log(allJobs);
     if (allJobs) {
       let jobDetail = allJobs.find((job) => job.id === selectedJob.jobId);
-      console.log(" 1 dhukse");
       if (jobDetail) {
-        console.log("2 dhukse");
         setData(jobDetail);
       }
     }
   }, [allJobs, selectedJob]);
+
+  const handleApplyNow = (id) => {
+    addToDb(id);
+  };
 
   return (
     <div className="mb-20">
@@ -100,8 +102,14 @@ const JobDetails = () => {
               <span className="font-medium text-[#757575]">{data.address}</span>
             </p>
           </div>
+
           <div className="mt-6">
-            <button className="btn-details w-full">Apply Now</button>
+            <button
+              onClick={() => handleApplyNow(data.id)}
+              className="btn-details w-full"
+            >
+              Apply Now
+            </button>
           </div>
         </div>
       </div>

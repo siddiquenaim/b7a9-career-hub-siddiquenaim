@@ -1,3 +1,3 @@
-# b7a9-career-hub-siddiquenaim
+# b7a9-career-hub-siddiquenaim (project name)
 
-# google.com
+# https://job-hunters.surge.sh/ (live link)
