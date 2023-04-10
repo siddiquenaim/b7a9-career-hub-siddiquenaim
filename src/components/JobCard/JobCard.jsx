@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./JobCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDollar } from "@fortawesome/free-solid-svg-icons";
@@ -6,6 +6,7 @@ import { faLocationDot, faDollar } from "@fortawesome/free-solid-svg-icons";
 const JobCard = ({ singleJob }) => {
   const { id, title, company_name, company_logo, job_type, location, salary } =
     singleJob;
+
   return (
     <div className="p-10 border rounded-lg">
       <div className="image-container">
