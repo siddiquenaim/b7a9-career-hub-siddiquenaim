@@ -11,10 +11,13 @@ const Featured = ({ featuredJobs }) => {
           need. Its your future
         </p>
       </div>
-      <div>
+      <div className="grid md:grid-cols-2 gap-6">
         {featuredJobs.map((singleJob) => (
           <JobCard key={singleJob.id} singleJob={singleJob}></JobCard>
         ))}
+      </div>
+      <div className="flex justify-center items-center my-10">
+        <button className="btn-details">Show All</button>
       </div>
     </div>
   );

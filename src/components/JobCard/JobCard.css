@@ -1,0 +1,17 @@
+.logo {
+  max-width: 275px;
+  max-height: 80px;
+}
+
+.job-border {
+  border: 1px solid #828bfe;
+  border-radius: 4px;
+}
+
+.image-container {
+  height: 80px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

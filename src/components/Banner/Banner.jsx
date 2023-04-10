@@ -9,7 +9,7 @@ const Banner = () => {
           <div className="text-5xl md:text-7xl font-extrabold ">
             <p>One Step</p>
             <p className="my-5"> Closer To Your</p>
-            <p className="text-[#8588FE]">Dream Job</p>
+            <p className="text-gradient">Dream Job</p>
           </div>
           <p className="my-6 description">
             Explore thousands of job opportunities with all the information you
