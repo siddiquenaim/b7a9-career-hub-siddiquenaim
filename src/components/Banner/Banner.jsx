@@ -3,10 +3,10 @@ import banner from "../../images/banner.png";
 
 const Banner = () => {
   return (
-    <section className="md:flex bg-[#F9F9FF]">
-      <div className="md:w-[50%] flex justify-center items-center">
-        <div className="w-[90%] md:w-[70%] text-center md:text-start my-10">
-          <div className="text-5xl md:text-7xl font-extrabold ">
+    <section className="lg:flex bg-[#F9F9FF]">
+      <div className="lg:w-[50%] flex justify-center items-center">
+        <div className="w-[90%] lg:w-[70%] text-center lg:text-start my-10">
+          <div className="text-5xl lg:text-7xl font-extrabold ">
             <p>One Step</p>
             <p className="my-5"> Closer To Your</p>
             <p className="text-gradient">Dream Job</p>
@@ -21,7 +21,7 @@ const Banner = () => {
           </a>
         </div>
       </div>
-      <div className="md:w-[50%] flex justify-center">
+      <div className="lg:w-[50%] flex justify-center">
         <img className="banner-img" src={banner} alt="" />
       </div>
     </section>

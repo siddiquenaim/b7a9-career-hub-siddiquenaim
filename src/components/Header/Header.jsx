@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="bg-[#F9F9FF]">
-      <nav className="navbar flex flex-col md:flex-row md:w-[90%] mx-auto py-8">
-        <div className="md:navbar-start">
+      <nav className="navbar flex flex-col lg:flex-row lg:w-[90%] mx-auto py-8">
+        <div className="lg:navbar-start">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
@@ -26,7 +26,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white rounded-box w-52"
+              className="dropdown-content menu p-2 shadow rounded-box w-52 border font-bold bg-white"
             >
               <li>
                 <Link to="/statistics">Statistics</Link>
@@ -59,7 +59,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="md:navbar-end items-center mt-5 md:mt-0">
+        <div className="lg:navbar-end items-center mt-5 lg:mt-0">
           <a href="/#features" className="btn-primary normal-case">
             Start Applying
           </a>

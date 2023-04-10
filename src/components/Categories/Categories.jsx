@@ -19,7 +19,7 @@ const Categories = () => {
           need. Its your future
         </p>
       </div>
-      <div className="flex flex-col justify-center items-center md:flex-row md:justify-around mx-auto">
+      <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-around mx-auto">
         {categories.map((category) => (
           <CategoryCard key={category.id} category={category}></CategoryCard>
         ))}

@@ -34,8 +34,8 @@ const JobDetails = () => {
       <div className="bg-[#F9F9FF] pt-12 pb-16 text-center">
         <h1 className="font-extrabold text-3xl">Job Details</h1>
       </div>
-      <div className="mt-16 md:mt-24 w-[90%] mx-auto md:flex gap-6">
-        <div className="md:w-[68%] w-[95%] mx-auto">
+      <div className="mt-16 lg:mt-24 w-[90%] mx-auto lg:flex gap-6">
+        <div className="lg:w-[68%] w-[95%] mx-auto">
           <p>
             <span className="detailTitle">Job Description: </span>
             <span className="detailDesc">{data.description}</span>
@@ -58,7 +58,7 @@ const JobDetails = () => {
           </p>
         </div>
 
-        <div className="w-[95%] md:w-[32%] mt-10 md:mt-0 mx-auto">
+        <div className="w-[95%] lg:w-[32%] mt-10 lg:mt-0 mx-auto">
           <div className="bg-gradient p-8">
             <h3 className="text-xl font-extrabold">Job Details</h3>
             <hr className="horizontal-line" />
