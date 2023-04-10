@@ -17,7 +17,7 @@ const Featured = ({ featuredJobs }) => {
           need. Its your future
         </p>
       </div>
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 gap-6 text-center md:text-start">
         {featuredJobs.slice(0, showAll ? 8 : 4).map((singleJob) => (
           <JobCard key={singleJob.id} singleJob={singleJob}></JobCard>
         ))}

@@ -2,9 +2,10 @@ import React from "react";
 import "./AppliedJobsCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDollar } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const AppliedJobsCard = ({ singleAppliedJob }) => {
-  const { company_name, company_logo, title, job_type, location, salary } =
+  const { id, company_name, company_logo, title, job_type, location, salary } =
     singleAppliedJob;
   return (
     <div className="border my-6 rounded-lg p-8">
@@ -33,9 +34,11 @@ const AppliedJobsCard = ({ singleAppliedJob }) => {
             </div>
           </div>
           <div className="md:w-[20%] mx-auto flex items-center justify-center">
-            <button className="btn btn-details normal-case mt-4 md:mt-0">
-              View Details
-            </button>
+            <Link to={`/jobDetails/${id}`}>
+              <button className="btn-details normal-case mt-4 md:mt-0 text-center text-xl font-extrabold">
+                View Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>
