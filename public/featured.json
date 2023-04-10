@@ -5,16 +5,15 @@
     "company_name": "Acme Corp",
     "company_logo": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Acme-corp.png",
     "job_type": ["Full-time", "Remote"],
-    "location": "San Francisco, CA",
+    "location": "Remote",
+    "address": "123 Main St, Anytown, USA",
     "salary": "$100,000 - $120,000 per year",
     "description": "Acme Corp is seeking a talented software engineer to join our team and work on developing cutting-edge software applications for our customers. The successful candidate will have a passion for software development and a desire to work in a fast-paced, dynamic environment.",
     "responsibility": "Design, develop, and maintain software applications using a variety of programming languages and technologies. Collaborate with other team members to identify and solve complex technical problems. Participate in code reviews and contribute to the continuous improvement of our software development processes.",
     "educational_requirement": "Bachelor's degree in Computer Science, Computer Engineering, or related field",
     "experience": "5+ years of experience in software engineering, with a focus on developing large-scale, enterprise-level applications",
-    "contact_info": {
-      "phone": "555-555-1234",
-      "email": "careers@acmecorp.com"
-    }
+    "phone": "555-555-1234",
+    "email": "careers@acmecorp.com"
   },
   {
     "id": "02",
@@ -23,15 +22,14 @@
     "company_logo": "https://www.freepnglogos.com/uploads/microsoft-logo-png-transparent-background-1.png",
     "job_type": ["Full-time", "Onsite"],
     "location": "Redmond, WA",
+    "address": "One Microsoft Way, Redmond, WA 98052, United States",
     "salary": "$150,000 - $200,000 per year",
     "description": "Microsoft is seeking a talented Cloud Solutions Architect to join our team and work on designing and implementing complex cloud solutions for our enterprise customers. The successful candidate will have a deep understanding of cloud technologies, architecture patterns, and hands-on experience in building cloud-based solutions.",
     "responsibility": "Lead the design and implementation of cloud solutions for enterprise customers, leveraging Microsoft's cloud services and technologies. Work with customers to understand their requirements and design solutions that meet their business needs. Collaborate with other teams to drive the adoption of Microsoft cloud services and technologies.",
     "educational_requirement": "Bachelor's or Master's degree in Computer Science or related field",
     "experience": "10+ years of experience in IT, with a focus on designing and implementing cloud solutions for enterprise customers",
-    "contact_info": {
-      "phone": "555-555-1212",
-      "email": "careers@microsoft.com"
-    }
+    "phone": "555-555-1212",
+    "email": "careers@microsoft.com"
   },
   {
     "id": "03",
@@ -40,15 +38,14 @@
     "company_logo": "https://www.freepnglogos.com/uploads/tesla-logo-png-20.png",
     "job_type": ["Part-time", "Onsite"],
     "location": "Fremont, CA",
+    "address": "3500 Deer Creek Rd, Palo Alto, CA 94304, United States",
     "salary": "$50 - $75 per hour",
     "description": "Tesla is seeking a talented Mechanical Engineer to join our team on a part-time, onsite basis and work on designing and developing mechanical systems for our vehicles. The successful candidate will have a strong background in mechanical engineering, experience working with CAD software, and a passion for sustainable transportation.",
     "responsibility": "Design and develop mechanical systems for Tesla vehicles, including component selection, system integration, and design verification. Collaborate with other team members to identify and solve technical challenges related to mechanical design and manufacturing. Continuously evaluate and improve the performance of mechanical systems and components.",
     "educational_requirement": "Bachelor's or Master's degree in Mechanical Engineering or related field",
     "experience": "3+ years of experience in mechanical engineering, with a focus on designing and developing mechanical systems for automotive or aerospace applications",
-    "contact_info": {
-      "phone": "555-555-6789",
-      "email": "careers@tesla.com"
-    }
+    "phone": "555-555-6789",
+    "email": "careers@tesla.com"
   },
   {
     "id": "04",
@@ -57,15 +54,14 @@
     "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgD05Ef9nyC-Movbw9v7ityXSGf-xayEYrMDlgdc_A3lhw_Mn6&s",
     "job_type": ["Full-time", "Onsite"],
     "location": "Mountain View, CA",
+    "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, United States",
     "salary": "$150,000 - $200,000 per year",
     "description": "Google is seeking a highly skilled software engineer to join our team and work on developing innovative software products that will have a positive impact on people's lives. The successful candidate will have a passion for software development, strong problem-solving skills, and a desire to work in a collaborative environment.",
     "responsibility": "Design, develop, and maintain software applications and systems that meet Google's high standards for quality and performance. Collaborate with other team members to identify and solve complex technical problems. Participate in code reviews and contribute to the continuous improvement of our software development processes.",
     "educational_requirement": "Bachelor's degree in Computer Science, Computer Engineering, or related field",
     "experience": "8+ years of experience in software engineering, with a focus on developing large-scale, highly available, and fault-tolerant distributed systems",
-    "contact_info": {
-      "phone": "555-555-5678",
-      "email": "careers@google.com"
-    }
+    "phone": "555-555-5678",
+    "email": "careers@google.com"
   },
   {
     "id": "05",
@@ -74,15 +70,14 @@
     "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmFnwLZLADSev9q7t8xQpmdyit85CMylUNwAVH-wllrX36Nq8&s",
     "job_type": ["Full-time", "Remote"],
     "location": "Remote",
+    "address": "1 Apple Park Way, Cupertino, CA 95014, United States",
     "salary": "$140,000 - $180,000 per year",
     "description": "Apple is seeking a talented product manager to join our team and work on developing groundbreaking products that will shape the future of technology. The successful candidate will have a passion for product development, a deep understanding of customer needs, and a desire to work in a fast-paced, dynamic environment.",
     "responsibility": "Lead the product development process from ideation to launch, working closely with cross-functional teams including engineering, design, marketing, and operations. Define and communicate product strategy and roadmaps to internal stakeholders and external partners. Conduct market research and analysis to identify customer needs and opportunities for innovation.",
     "educational_requirement": "Bachelor's degree in Business Administration, Engineering, or related field; MBA preferred",
     "experience": "7+ years of experience in product management, with a proven track record of successfully launching products in a fast-paced, dynamic environment",
-    "contact_info": {
-      "phone": "555-555-9012",
-      "email": "careers@apple.com"
-    }
+    "phone": "555-555-9012",
+    "email": "careers@apple.com"
   },
   {
     "id": "06",
@@ -91,15 +86,14 @@
     "company_logo": "https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-13.png",
     "job_type": ["Part-time", "Onsite"],
     "location": "Menlo Park, CA",
+    "address": "1 Hacker Way, Menlo Park, CA 94025, United States",
     "salary": "$50 - $75 per hour",
     "description": "Facebook is seeking a talented UX Designer to join our team on a part-time basis and work on designing intuitive and engaging user experiences for our products. The successful candidate will have a passion for user-centered design, strong problem-solving skills, and a desire to work in a collaborative environment.",
     "responsibility": "Collaborate with cross-functional teams including product managers, engineers, and researchers to design user experiences that meet the needs of our users. Conduct user research and usability testing to validate design decisions. Create wireframes, prototypes, and other design artifacts to communicate design concepts to stakeholders.",
     "educational_requirement": "Bachelor's degree in Design, Human-Computer Interaction, or related field",
     "experience": "3+ years of experience in UX design, with a portfolio showcasing your design process and problem-solving skills",
-    "contact_info": {
-      "phone": "555-555-3456",
-      "email": "careers@facebook.com"
-    }
+    "phone": "555-555-3456",
+    "email": "careers@facebook.com"
   },
   {
     "id": "07",
@@ -108,15 +102,14 @@
     "company_logo": "https://www.freepnglogos.com/uploads/ibm-logo-png/ibm-logo-acm-icpc-kanpur-site-0.png",
     "job_type": ["Part-time", "Remote"],
     "location": "Remote",
+    "address": "1 New Orchard Road, Armonk, New York 10504, United States",
     "salary": "$75 - $100 per hour",
     "description": "IBM is seeking a talented Artificial Intelligence Engineer to join our team on a part-time, remote basis and work on developing cutting-edge AI technologies for our clients. The successful candidate will have a strong background in AI and machine learning, experience working with large datasets, and a desire to work in a fast-paced, dynamic environment.",
     "responsibility": "Develop and implement AI algorithms and models to solve complex business problems. Collaborate with other team members to identify and solve technical challenges related to data processing, model training, and performance optimization. Continuously monitor and evaluate the performance of AI models and make improvements as needed.",
     "educational_requirement": "Master's or PhD in Computer Science, Artificial Intelligence, or related field",
     "experience": "5+ years of experience in AI engineering, with a focus on developing and implementing AI models for real-world applications",
-    "contact_info": {
-      "phone": "555-555-5678",
-      "email": "careers@ibm.com"
-    }
+    "phone": "555-555-5678",
+    "email": "careers@ibm.com"
   },
   {
     "id": "08",
@@ -125,14 +118,13 @@
     "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRj7icR5w4fqP9d66hMkwQya-lt4ENUg6GkZMCWPFXLPwLI8s&s",
     "job_type": ["Part-time", "Remote"],
     "location": "Remote",
+    "address": "1455 Market St #400, San Francisco, CA 94103, United States",
     "salary": "$50 - $75 per hour",
     "description": "Uber is seeking a talented Backend Software Engineer to join our team on a part-time, remote basis and work on developing and scaling our backend systems. The successful candidate will have experience with distributed systems, strong coding skills in languages like Java or Go, and a passion for building high-performance and reliable systems.",
     "responsibility": "Design and develop highly scalable and fault-tolerant backend systems to support Uber's services. Work with other teams to identify requirements and build APIs that enable fast and reliable access to data. Monitor and troubleshoot production systems to ensure high availability and performance.",
     "educational_requirement": "Bachelor's or Master's degree in Computer Science or related field",
     "experience": "3+ years of experience in software engineering, with a focus on backend development and distributed systems",
-    "contact_info": {
-      "phone": "555-555-1212",
-      "email": "careers@uber.com"
-    }
+    "phone": "555-555-1212",
+    "email": "careers@uber.com"
   }
 ]

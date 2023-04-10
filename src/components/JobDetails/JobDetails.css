@@ -5,3 +5,13 @@
 .detailDesc {
   @apply text-[#757575] font-medium;
 }
+
+.bg-gradient {
+  @apply bg-gradient-to-r from-[#F2F4FF] to-[#F5F1FF] hover:bg-gradient-to-l rounded-lg;
+}
+
+.horizontal-line {
+  margin: 24px 0;
+  background-color: #d3d3dd;
+  height: 1.5px;
+}
