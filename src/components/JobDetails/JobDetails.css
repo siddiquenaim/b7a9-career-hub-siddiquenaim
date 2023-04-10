@@ -1,0 +1,7 @@
+.detailTitle {
+  @apply font-extrabold;
+}
+
+.detailDesc {
+  @apply text-[#757575] font-medium;
+}

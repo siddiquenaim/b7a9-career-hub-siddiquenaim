@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./JobCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDollar } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const JobCard = ({ singleJob }) => {
   const { id, title, company_name, company_logo, job_type, location, salary } =
@@ -28,7 +29,9 @@ const JobCard = ({ singleJob }) => {
           {salary}
         </p>
       </div>
-      <button className="btn-details mt-6">View Details</button>
+      <Link to={`jobDetails/${id}`}>
+        <button className="btn-details mt-6">View Details</button>
+      </Link>
     </div>
   );
 };

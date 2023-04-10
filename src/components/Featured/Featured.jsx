@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import JobCard from "../JobCard/JobCard";
 
 const Featured = ({ featuredJobs }) => {

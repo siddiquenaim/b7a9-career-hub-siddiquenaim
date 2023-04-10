@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "../Banner/Banner";
 import Categories from "../Categories/Categories";
 import Featured from "../Featured/Featured";
@@ -6,6 +5,7 @@ import { useLoaderData } from "react-router-dom";
 
 const Default = () => {
   const featuredJobs = useLoaderData();
+
   return (
     <>
       <Banner></Banner>
