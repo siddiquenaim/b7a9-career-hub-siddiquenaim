@@ -1,6 +1,7 @@
 import React from "react";
+import JobCard from "../JobCard/JobCard";
 
-const Featured = () => {
+const Featured = ({ featuredJobs }) => {
   return (
     <div className="mt-32 w-[90%] mx-auto">
       <div className="text-center">
@@ -9,6 +10,11 @@ const Featured = () => {
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
+      </div>
+      <div>
+        {featuredJobs.map((singleJob) => (
+          <JobCard key={singleJob.id} singleJob={singleJob}></JobCard>
+        ))}
       </div>
     </div>
   );
