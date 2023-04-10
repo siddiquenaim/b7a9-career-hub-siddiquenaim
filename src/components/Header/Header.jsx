@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="bg-[#F9F9FF]">
       <nav className="navbar flex flex-col md:flex-row md:w-[90%] mx-auto py-8">
-        <div className="navbar-start">
+        <div className="md:navbar-start">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
@@ -59,8 +59,8 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="md:navbar-end items-center">
-          <a href="#features" className="btn-primary normal-case">
+        <div className="md:navbar-end items-center mt-5 md:mt-0">
+          <a href="/#features" className="btn-primary normal-case">
             Start Applying
           </a>
         </div>

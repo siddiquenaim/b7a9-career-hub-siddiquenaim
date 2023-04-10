@@ -1,0 +1,27 @@
+.job-logo-container {
+  height: 240px;
+  width: 240px;
+  padding: 32px;
+}
+
+.job-logo {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.job-title {
+  font-weight: 800;
+  font-size: 24px;
+  color: #474747;
+}
+
+.company-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #757575;
+}
+
+.job-border {
+  border: 1px solid #828bfe;
+  border-radius: 4px;
+}
