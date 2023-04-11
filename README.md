@@ -12,7 +12,7 @@ This project is a job hunting website designed to help job seekers find their dr
 
 ### Best features of the project:
 
-1. This project is a \*_Single Page Application_ which helps the users to have a smoother experience with faster load times to navigate from one route to another.
+1. This project is a _Single Page Application_ which helps the users to have a smoother experience with faster load times to navigate from one route to another.
 
 2. The data are shown _dynamically_ from json files.
 
@@ -26,4 +26,4 @@ This project is a job hunting website designed to help job seekers find their dr
 
 Those were the main features of the project. The project is made with a simple UI that allows the user to understand and use the website very easily. Also, the project is made with react router and by using components which makes it easier to maintain.
 
-_Live Link_ : [https://job-hunters.surge.sh/]
+_Live Link_ : https://job-hunters.surge.sh/

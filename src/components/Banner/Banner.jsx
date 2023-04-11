@@ -12,11 +12,13 @@ const Banner = () => {
             <p className="text-gradient">Dream Career</p>
           </div>
           <p className="my-6 description">
-            Our company is an independent agency that offers everyone the
-            opportunity to demonstrate their ability, skill and talent. Our
-            company offers a competitive money earning and guarantees the high
-            quality of your efficiency to grow and build your future successful
-            life.
+            Our job hunting website is the perfect platform for job seekers
+            looking to find their dream job. With a user-friendly interface and
+            a wide range of job listings across various industries, we make the
+            job hunting process easy and efficient. Whether you're a recent
+            graduate or an experienced professional, our website has everything
+            you need to take the next step in your career. Start exploring today
+            and discover your perfect job match!
           </p>
           <a href="#features">
             <button className="btn-primary">Get Started</button>

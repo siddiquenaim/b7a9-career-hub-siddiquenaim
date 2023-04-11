@@ -67,7 +67,7 @@ const Statistics = () => {
       </div>
       <div className="mt-16 lg:mt-24 w-[95%] mx-auto gap-6 flex items-center justify-center">
         <div>
-          <h3 className="text-xl">
+          <h3 className="text-xl text-center lg:text-start">
             The following chart elaborates assignment marks:
           </h3>
           <div className="mt-10">

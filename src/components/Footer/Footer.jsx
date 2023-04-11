@@ -12,9 +12,9 @@ const Footer = () => {
           <div className="lg:w-[23%]">
             <h3 className="text-3xl font-extrabold">Job Hunters</h3>
             <p className="my-5 footer-description">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
-              natus cumque odit, fuga eius tempore cum aperiam molestias
-              pariatur adipisci.
+              Every challenge is an opportunity to grow and improve. Embrace the
+              journey towards your dream career. Believe in yourself and keep
+              pushing forward!
             </p>
             <div className="flex gap-6">
               <a
@@ -73,7 +73,7 @@ const Footer = () => {
         <div className="footer-end-text lg:flex justify-between pb-12">
           <p>
             @2023 <span className="font-semibold">JobHunters</span>. All Rights
-            Reserved
+            Reserved.
           </p>
           <p className="mt-4 lg:mt-0">
             Powered by <span className="font-semibold">JobHunters</span>

@@ -15,8 +15,8 @@ const Categories = () => {
       <div className="text-center">
         <h2 className="section-title">Job Category List</h2>
         <p className="description mb-8">
-          Explore thousands of job opportunities with all the information you
-          need. Its your future
+          Discover your dream job with comprehensive job listings and resources.
+          Your future is waiting.
         </p>
       </div>
       <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-around mx-auto">

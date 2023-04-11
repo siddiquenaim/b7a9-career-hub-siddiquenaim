@@ -13,8 +13,8 @@ const Featured = ({ featuredJobs }) => {
       <div className="text-center">
         <h2 className="section-title">Featured Jobs</h2>
         <p className="description mb-8">
-          Explore thousands of job opportunities with all the information you
-          need. Its your future
+          Uncover endless job possibilities with in-depth job listings and
+          tools. Your future is in your hands.
         </p>
       </div>
       <div className="grid lg:grid-cols-2 gap-6 text-center lg:text-start">
