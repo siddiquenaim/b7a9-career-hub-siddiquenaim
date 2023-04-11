@@ -61,17 +61,17 @@ const data01 = [
 
 const Statistics = () => {
   return (
-    <div className="mb-20">
+    <div className="mb-10">
       <div className="bg-[#F9F9FF] pt-12 pb-16 text-center">
         <h1 className="font-extrabold text-3xl">Assignment Marks</h1>
       </div>
       <div className="mt-16 lg:mt-24 w-[95%] mx-auto gap-6 flex items-center justify-center">
         <div>
           <h3 className="text-xl">
-            The following graph elaborates assignment marks:
+            The following chart elaborates assignment marks:
           </h3>
           <div className="mt-10">
-            <ResponsiveContainer width={"99%"} height={300}>
+            <ResponsiveContainer width={"99%"} height={400}>
               <PieChart width={400} height={400}>
                 <Pie
                   dataKey="marks"
@@ -80,7 +80,7 @@ const Statistics = () => {
                   cx="50%"
                   cy="50%"
                   outerRadius={80}
-                  fill="#8884d8"
+                  fill="#9675FF"
                   label
                 />
                 <Tooltip />
