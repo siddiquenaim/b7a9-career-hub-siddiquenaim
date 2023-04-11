@@ -1,4 +1,3 @@
-import AppliedJobs from "../components/AppliedJobs/AppliedJobs";
 import { getAppliedJobs } from "../utilities/fakedb";
 
 const appliedJobLoader = async () => {

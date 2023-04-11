@@ -9,12 +9,37 @@ import {
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import { addToDb } from "../../utilities/fakedb";
+import { getAppliedJobs } from "../../utilities/fakedb";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const JobDetails = () => {
   const allJobs = useLoaderData();
   const selectedJob = useParams();
   const [data, setData] = useState({});
+  const notifyWarning = () =>
+    toast.warn("You've already applied for this job!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+
+  const notifySuccess = () =>
+    toast.success("Applied Successfully", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
 
   useEffect(() => {
     if (allJobs) {
@@ -26,7 +51,16 @@ const JobDetails = () => {
   }, [allJobs, selectedJob]);
 
   const handleApplyNow = (id) => {
-    addToDb(id);
+    let appliedJobs = getAppliedJobs();
+    // add quantity
+    const quantity = appliedJobs[id];
+    if (!quantity) {
+      appliedJobs[id] = 1;
+      notifySuccess();
+    } else {
+      notifyWarning();
+    }
+    localStorage.setItem("applied-jobs", JSON.stringify(appliedJobs));
   };
 
   return (
@@ -113,6 +147,18 @@ const JobDetails = () => {
           </div>
         </div>
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </div>
   );
 };
