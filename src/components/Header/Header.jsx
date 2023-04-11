@@ -7,7 +7,7 @@ const Header = () => {
     <div className="bg-[#F9F9FF]">
       <nav className="navbar flex flex-col lg:flex-row lg:w-[90%] mx-auto py-8">
         <div className="lg:navbar-start">
-          <div className="dropdown">
+          <div className="dropdown mr-7">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
