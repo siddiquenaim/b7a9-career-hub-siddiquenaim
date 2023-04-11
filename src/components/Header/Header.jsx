@@ -30,6 +30,17 @@ const Header = () => {
             >
               <li>
                 <NavLink
+                  to="/"
+                  style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#545e6f",
+                    background: isActive ? "#9674FF" : "#F9F9FF",
+                  })}
+                >
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to="/statistics"
                   style={({ isActive }) => ({
                     color: isActive ? "#fff" : "#545e6f",
@@ -72,6 +83,17 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 description">
+            <li>
+              <NavLink
+                to="/"
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#545e6f",
+                  background: isActive ? "#9674FF" : "#F9F9FF",
+                })}
+              >
+                Home
+              </NavLink>
+            </li>
             <li>
               <NavLink
                 to="/statistics"
