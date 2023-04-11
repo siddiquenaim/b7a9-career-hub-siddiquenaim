@@ -31,7 +31,7 @@ const AppliedJobs = () => {
   };
 
   return (
-    <div>
+    <div className="lg:mb-20">
       <div className="bg-[#F9F9FF] pt-12 pb-16 text-center">
         <h1 className="font-extrabold text-3xl">Applied Jobs</h1>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -29,13 +29,37 @@ const Header = () => {
               className="dropdown-content menu p-2 shadow rounded-box w-52 border font-bold bg-white"
             >
               <li>
-                <Link to="/statistics">Statistics</Link>
+                <NavLink
+                  to="/statistics"
+                  style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#545e6f",
+                    background: isActive ? "#9674FF" : "#F9F9FF",
+                  })}
+                >
+                  Statistics
+                </NavLink>
               </li>
               <li>
-                <Link to="/applied-jobs">Applied Jobs</Link>
+                <NavLink
+                  to="/applied-jobs"
+                  style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#545e6f",
+                    background: isActive ? "#9674FF" : "#F9F9FF",
+                  })}
+                >
+                  Applied Jobs
+                </NavLink>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <NavLink
+                  to="/blog"
+                  style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#545e6f",
+                    background: isActive ? "#9674FF" : "#F9F9FF",
+                  })}
+                >
+                  Blog
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -49,13 +73,37 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 description">
             <li>
-              <Link to="/statistics">Statistics</Link>
+              <NavLink
+                to="/statistics"
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#545e6f",
+                  background: isActive ? "#9674FF" : "#F9F9FF",
+                })}
+              >
+                Statistics
+              </NavLink>
             </li>
             <li>
-              <Link to="/applied-jobs">Applied Jobs</Link>
+              <NavLink
+                to="/applied-jobs"
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#545e6f",
+                  background: isActive ? "#9674FF" : "#F9F9FF",
+                })}
+              >
+                Applied Jobs
+              </NavLink>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <NavLink
+                to="/blog"
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#545e6f",
+                  background: isActive ? "#9674FF" : "#F9F9FF",
+                })}
+              >
+                Blog
+              </NavLink>
             </li>
           </ul>
         </div>

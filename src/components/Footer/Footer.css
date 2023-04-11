@@ -1,0 +1,23 @@
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.divider-footer {
+  height: 1px;
+  background-color: #4b4b4b;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.footer-end-text {
+  font-weight: 400px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+}

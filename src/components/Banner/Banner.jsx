@@ -7,14 +7,16 @@ const Banner = () => {
       <div className="lg:w-[50%] flex justify-center items-center">
         <div className="w-[90%] lg:w-[70%] text-center lg:text-start my-10">
           <div className="text-5xl lg:text-7xl font-extrabold ">
-            <p>One Step</p>
-            <p className="my-5"> Closer To Your</p>
-            <p className="text-gradient">Dream Job</p>
+            <p>Next Step</p>
+            <p className="my-5">Towards Your</p>
+            <p className="text-gradient">Dream Career</p>
           </div>
           <p className="my-6 description">
-            Explore thousands of job opportunities with all the information you
-            need. Its your future. Come find it. Manage all your job application
-            from start to finish.
+            Our company is an independent agency that offers everyone the
+            opportunity to demonstrate their ability, skill and talent. Our
+            company offers a competitive money earning and guarantees the high
+            quality of your efficiency to grow and build your future successful
+            life.
           </p>
           <a href="#features">
             <button className="btn-primary">Get Started</button>
