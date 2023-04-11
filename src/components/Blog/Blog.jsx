@@ -85,13 +85,14 @@ const Blog = () => {
           </div>
           <div className="collapse-content border font-medium">
             <p className="mt-5">
-              useMemo is a built-in hook in React that allows you to memoize a
-              function's result, caching it so that it's only recomputed when
-              its dependencies change. This can improve the performance of your
-              application by reducing unnecessary re-renders of components that
-              rely on the memoized value. In simpler terms, useMemo helps you
-              optimize your React components by caching the result of a function
-              until its input changes, avoiding unnecessary re-computations.
+              Answer: useMemo is a built-in hook in React that allows you to
+              memoize a function's result, caching it so that it's only
+              recomputed when its dependencies change. This can improve the
+              performance of your application by reducing unnecessary re-renders
+              of components that rely on the memoized value. In simpler terms,
+              useMemo helps you optimize your React components by caching the
+              result of a function until its input changes, avoiding unnecessary
+              re-computations.
             </p>
           </div>
         </div>
